@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+The repository contains several lightweight plugins for Apache Jena and its *Fuseki* Semantic Web server.
+The plugins originated from my Jena-extension project [JenaX](https://github.com/Scaseco/jenax) and have been factored out as independent self-contained modules.
+
 <!--
 
 **Here are some ideas to get you started:**
