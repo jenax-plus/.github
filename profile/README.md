@@ -1,7 +1,11 @@
 ## Hi there 👋
 
-The repository contains several lightweight plugins for Apache Jena and its *Fuseki* Semantic Web server.
-The plugins originated from my Jena-extension project [JenaX](https://github.com/Scaseco/jenax) and have been factored out as independent self-contained modules.
+This repository contains several lightweight plugins for Apache Jena and its *Fuseki* Semantic Web server.
+The individual plugin repositories contain downloads of self-contained Fuseki plugin JARs that can be simply dropped into a Fuseki server's `<fuseki-root>/run/extra` folder such that Fuseki will load them on the next server start. 
+
+* The plugins have minimal non-Jena dependencies. All non-Jena dependencies have been shaded in order to avoid conflicts with other plugins.
+* The plugins rely on the public extension APIs of Jena 6+. As long as those APIs don't break the plugins will work against newer versions of Jena.
+* The plugins in this *jenax-plus* repository are polished up versions of modules that originated from my Jena-extension project [JenaX](https://github.com/Scaseco/jenax).
 
 <!--
 
